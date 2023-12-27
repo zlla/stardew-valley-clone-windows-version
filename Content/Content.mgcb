@@ -1,0 +1,19 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:$(Platform)
+/intermediateDir:$(Platform)
+/platform:MacOSX
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+/reference:../bin/Debug/net6.0/MonoGame.Extended.dll
+/reference:../bin/Debug/net6.0/TiledCS.dll
+/reference:../bin/Debug/net6.0/Newtonsoft.Json.dll
+/reference:../bin/Debug/net6.0/MonoGame.Extended.Tiled.dll
+
+#---------------------------------- Content ---------------------------------#
+

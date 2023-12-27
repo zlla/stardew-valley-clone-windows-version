@@ -1,0 +1,399 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "mgcb-editor-gtk/3.8.0.1641": {
+        "dependencies": {
+          "Eto.Forms": "2.5.2",
+          "Eto.Platform.Gtk": "2.5.2",
+          "GtkSharp": "3.22.25.98",
+          "MonoGame.Framework.Content.Pipeline": "3.8.0.1641",
+          "MonoGame.Framework.DesktopGL": "3.8.0.1641",
+          "System.CommandLine": "2.0.0-beta1.20158.1"
+        },
+        "runtime": {
+          "mgcb-editor-gtk.dll": {}
+        }
+      },
+      "AssimpNet/4.1.0": {
+        "runtime": {
+          "lib/netstandard1.3/AssimpNet.dll": {
+            "assemblyVersion": "4.1.0.0",
+            "fileVersion": "4.1.0.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libassimp.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libassimp.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/assimp.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/assimp.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "AtkSharp/3.22.25.98": {
+        "dependencies": {
+          "GLibSharp": "3.22.25.98"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AtkSharp.dll": {
+            "assemblyVersion": "3.22.25.98",
+            "fileVersion": "3.22.25.98"
+          }
+        }
+      },
+      "CairoSharp/3.22.25.98": {
+        "runtime": {
+          "lib/netstandard2.0/CairoSharp.dll": {
+            "assemblyVersion": "3.22.25.98",
+            "fileVersion": "3.22.25.98"
+          }
+        }
+      },
+      "Eto.Forms/2.5.2": {
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Eto.dll": {
+            "assemblyVersion": "2.5.0.0",
+            "fileVersion": "2.5.7453.35170"
+          }
+        }
+      },
+      "Eto.Platform.Gtk/2.5.2": {
+        "dependencies": {
+          "Eto.Forms": "2.5.2",
+          "GtkSharp": "3.22.25.98"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Eto.Gtk.dll": {
+            "assemblyVersion": "2.5.0.0",
+            "fileVersion": "2.5.7453.35213"
+          }
+        }
+      },
+      "GdkSharp/3.22.25.98": {
+        "dependencies": {
+          "CairoSharp": "3.22.25.98",
+          "GLibSharp": "3.22.25.98",
+          "GioSharp": "3.22.25.98",
+          "PangoSharp": "3.22.25.98"
+        },
+        "runtime": {
+          "lib/netstandard2.0/GdkSharp.dll": {
+            "assemblyVersion": "3.22.25.98",
+            "fileVersion": "3.22.25.98"
+          }
+        }
+      },
+      "GioSharp/3.22.25.98": {
+        "dependencies": {
+          "GLibSharp": "3.22.25.98"
+        },
+        "runtime": {
+          "lib/netstandard2.0/GioSharp.dll": {
+            "assemblyVersion": "3.22.25.98",
+            "fileVersion": "3.22.25.98"
+          }
+        }
+      },
+      "GLibSharp/3.22.25.98": {
+        "runtime": {
+          "lib/netstandard2.0/GLibSharp.dll": {
+            "assemblyVersion": "3.22.25.98",
+            "fileVersion": "3.22.25.98"
+          }
+        }
+      },
+      "GtkSharp/3.22.25.98": {
+        "dependencies": {
+          "AtkSharp": "3.22.25.98",
+          "CairoSharp": "3.22.25.98",
+          "GLibSharp": "3.22.25.98",
+          "GdkSharp": "3.22.25.98",
+          "GioSharp": "3.22.25.98",
+          "PangoSharp": "3.22.25.98"
+        },
+        "runtime": {
+          "lib/netstandard2.0/GtkSharp.dll": {
+            "assemblyVersion": "3.22.25.98",
+            "fileVersion": "3.22.25.98"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.4.1": {},
+      "Microsoft.NETCore.Platforms/2.0.0": {},
+      "Microsoft.Win32.Registry/4.5.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "4.5.0",
+          "System.Security.Principal.Windows": "4.5.0"
+        }
+      },
+      "PangoSharp/3.22.25.98": {
+        "dependencies": {
+          "CairoSharp": "3.22.25.98",
+          "GLibSharp": "3.22.25.98"
+        },
+        "runtime": {
+          "lib/netstandard2.0/PangoSharp.dll": {
+            "assemblyVersion": "3.22.25.98",
+            "fileVersion": "3.22.25.98"
+          }
+        }
+      },
+      "System.CommandLine/2.0.0-beta1.20158.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.4.1",
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.CommandLine.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.20.15801"
+          }
+        }
+      },
+      "System.ComponentModel.Annotations/4.7.0": {},
+      "System.Memory/4.5.3": {},
+      "System.Security.AccessControl/4.5.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0",
+          "System.Security.Principal.Windows": "4.5.0"
+        }
+      },
+      "System.Security.Principal.Windows/4.5.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0"
+        }
+      },
+      "MonoGame.Framework.Content.Pipeline/3.8.0.1641": {
+        "dependencies": {
+          "AssimpNet": "4.1.0",
+          "Microsoft.Win32.Registry": "4.5.0"
+        },
+        "runtime": {
+          "MonoGame.Framework.Content.Pipeline.dll": {}
+        }
+      },
+      "MonoGame.Framework.DesktopGL/3.8.0.1641": {
+        "runtime": {
+          "MonoGame.Framework.dll": {}
+        }
+      },
+      "ATI.TextureConverter/1.0.5522.26319": {
+        "runtime": {
+          "ATI.TextureConverter.dll": {
+            "assemblyVersion": "1.0.5522.26319",
+            "fileVersion": "1.0.5522.26319"
+          }
+        }
+      },
+      "Nvidia.TextureTools/1.0.0.0": {
+        "runtime": {
+          "Nvidia.TextureTools.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "PVRTexLibNET/1.0.0.0": {
+        "runtime": {
+          "PVRTexLibNET.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SharpFont/1.0.0.0": {
+        "runtime": {
+          "SharpFont.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "mgcb-editor-gtk/3.8.0.1641": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AssimpNet/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z/4Tmf3Q2r1+vN6o/szArEZvPsdYNRYiS0L/yArybQd7n7KCiS9L4lRZhwwlHJb/edECM+Jky0XisVspr5aQWQ==",
+      "path": "assimpnet/4.1.0",
+      "hashPath": "assimpnet.4.1.0.nupkg.sha512"
+    },
+    "AtkSharp/3.22.25.98": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P5aeoWgfquIsNxwJGZiVZN6WJflbn5tOGCJY8JeUIN4TVjSS7ZHcMOJoVc0jmnDLz+o8iDkVoBvDxy9GUB2xhQ==",
+      "path": "atksharp/3.22.25.98",
+      "hashPath": "atksharp.3.22.25.98.nupkg.sha512"
+    },
+    "CairoSharp/3.22.25.98": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5urvyqO4fee0Vf3KUOKvrTU8SocexwrpqDpu9gQT2lKPYjsea43B11nfz1rhekBJwuWs331xaC6bDTix6FUv9Q==",
+      "path": "cairosharp/3.22.25.98",
+      "hashPath": "cairosharp.3.22.25.98.nupkg.sha512"
+    },
+    "Eto.Forms/2.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WkXAiBoNdThf5Sn5aKsmIf0JlAxWwhRkJVPXaC7jpg8tBSvvMlZGSztbzk/EUZTrBz1eHHvpcVyAjlStT4zwgg==",
+      "path": "eto.forms/2.5.2",
+      "hashPath": "eto.forms.2.5.2.nupkg.sha512"
+    },
+    "Eto.Platform.Gtk/2.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fyBc1TELAa4YiDoRYG+aViY3I0LiSwnCw14ZDP0h7Oh+vQshdBtzDxOijuGsRD5qxoynHAX8e15zfxQLNynPOw==",
+      "path": "eto.platform.gtk/2.5.2",
+      "hashPath": "eto.platform.gtk.2.5.2.nupkg.sha512"
+    },
+    "GdkSharp/3.22.25.98": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eJTIFGCLKhHt/Sk2VWAK7A4nVmoxSLF++K2RMFZLDF1cHtbF5NminOx8BSwBWPnsI7sUJb6idOc71m7LiVSSWA==",
+      "path": "gdksharp/3.22.25.98",
+      "hashPath": "gdksharp.3.22.25.98.nupkg.sha512"
+    },
+    "GioSharp/3.22.25.98": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JB9ncI79eZkCS25T5R4nKbymUDSHb7xZVdPJph4IYgsJN0XvMLHP+hGmj7ibfgXKDwlwhzk9Aqhm+x3sFmm2BA==",
+      "path": "giosharp/3.22.25.98",
+      "hashPath": "giosharp.3.22.25.98.nupkg.sha512"
+    },
+    "GLibSharp/3.22.25.98": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PUen65nYJQ324oTdNjVPQcW8NgOkdQusBty2gAQU2xjgnrz0g2TEj/Q56u8gZqywWlYzRyhRTAmOqdgCC36tCg==",
+      "path": "glibsharp/3.22.25.98",
+      "hashPath": "glibsharp.3.22.25.98.nupkg.sha512"
+    },
+    "GtkSharp/3.22.25.98": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LJJsVFMHBdz8VEXjGok1YfabS38d5hqRq6dx6HdH9HWhxmhDN31HBSfEmCgq70aoB3x/F0JymxEyKfwrS2UsJA==",
+      "path": "gtksharp/3.22.25.98",
+      "hashPath": "gtksharp.3.22.25.98.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A5hI3gk6WpcBI0QGZY6/d5CCaYUxJgi7iENn1uYEng+Olo8RfI5ReGVkjXjeu3VR3srLvVYREATXa2M0X7FYJA==",
+      "path": "microsoft.csharp/4.4.1",
+      "hashPath": "microsoft.csharp.4.4.1.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VdLJOCXhZaEMY7Hm2GKiULmn7IEPFE4XC5LPSfBVCUIA8YLZVh846gtfBJalsPQF2PlzdD7ecX7DZEulJ402ZQ==",
+      "path": "microsoft.netcore.platforms/2.0.0",
+      "hashPath": "microsoft.netcore.platforms.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.Registry/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+FWlwd//+Tt56316p00hVePBCouXyEzT86Jb3+AuRotTND0IYn0OO3obs1gnQEs/txEnt+rF2JBGLItTG+Be6A==",
+      "path": "microsoft.win32.registry/4.5.0",
+      "hashPath": "microsoft.win32.registry.4.5.0.nupkg.sha512"
+    },
+    "PangoSharp/3.22.25.98": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ye1cN7KssRwUUB/1FKyUNWS599O+W+sCf7BP1U5h2VcnFXmxjkRq1AxvDWTGnKQpdWJrP2nGwqUKmGANhMu/1Q==",
+      "path": "pangosharp/3.22.25.98",
+      "hashPath": "pangosharp.3.22.25.98.nupkg.sha512"
+    },
+    "System.CommandLine/2.0.0-beta1.20158.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kFwEhvsl6QGn7cMipzOcMJwnst3+zdS7tdI+LLt9d2CADQirbrTR+Kdexp0Li/iaeLe3MP9zrFFvpJgmPOxS0Q==",
+      "path": "system.commandline/2.0.0-beta1.20158.1",
+      "hashPath": "system.commandline.2.0.0-beta1.20158.1.nupkg.sha512"
+    },
+    "System.ComponentModel.Annotations/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0YFqjhp/mYkDGpU0Ye1GjE53HMp9UVfGN7seGpAMttAC0C40v5gw598jCgpbBLMmCo0E5YRLBv5Z2doypO49ZQ==",
+      "path": "system.componentmodel.annotations/4.7.0",
+      "hashPath": "system.componentmodel.annotations.4.7.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "path": "system.memory/4.5.3",
+      "hashPath": "system.memory.4.5.3.nupkg.sha512"
+    },
+    "System.Security.AccessControl/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vW8Eoq0TMyz5vAG/6ce483x/CP83fgm4SJe5P8Tb1tZaobcvPrbMEL7rhH1DRdrYbbb6F0vq3OlzmK0Pkwks5A==",
+      "path": "system.security.accesscontrol/4.5.0",
+      "hashPath": "system.security.accesscontrol.4.5.0.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U77HfRXlZlOeIXd//Yoj6Jnk8AXlbeisf1oq1os+hxOGVnuG+lGSfGqTwTZBoORFF6j/0q7HXIl8cqwQ9aUGqQ==",
+      "path": "system.security.principal.windows/4.5.0",
+      "hashPath": "system.security.principal.windows.4.5.0.nupkg.sha512"
+    },
+    "MonoGame.Framework.Content.Pipeline/3.8.0.1641": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MonoGame.Framework.DesktopGL/3.8.0.1641": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ATI.TextureConverter/1.0.5522.26319": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Nvidia.TextureTools/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PVRTexLibNET/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SharpFont/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
